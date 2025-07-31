@@ -51,7 +51,7 @@ const handleSubmit = async (e) => {
             <input
               type="text"
               name="name"
-              value={formData.fullName}
+              value={formData.name}
               onChange={handleChange}
               required
               className="w-full mt-1 border rounded px-3 py-2 outline-none focus:ring-1 focus:ring-[#a30e0e]"
