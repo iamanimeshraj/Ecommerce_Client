@@ -5,7 +5,7 @@ import { toast, Bounce } from 'react-toastify';
 
 const AppState = (props) => {
   // const url = "http://localhost:2000/api";
-  const url = "https://vernika-jewels.onrender.com/api";
+  const url = "https://api-ecommerce-mao9.onrender.com/api";
 
   const [product, setProduct] = useState([]);
   const [token, setToken] = useState(null);
